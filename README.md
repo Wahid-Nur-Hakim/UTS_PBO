@@ -20,7 +20,7 @@ Program menerapkan konsep Object-Oriented Programming atau OOP, meliputi inherit
 
 <div align="justify">
 
-Program Toko Al-Hafizh berfungsi untuk mengelola data produk dan melakukan simulasi proses penjualan pada sebuah toko secara sederhana. Program membantu pengguna menyimpan serta mengatur produk berdasarkan empat kategori, yaitu makanan, minuman, handphone, dan aksesoris handphone.\
+Program Toko Al-Hafizh berfungsi untuk mengelola data produk dan melakukan simulasi proses penjualan pada sebuah toko secara sederhana. Program membantu pengguna menyimpan serta mengatur produk berdasarkan empat kategori, yaitu makanan, minuman, handphone, dan aksesoris handphone.
 
 Kegunaan utama program adalah:
 * Menambahkan data produk baru ke dalam sistem.
@@ -55,4 +55,65 @@ Program menggunakan perulangan sehingga pengguna dapat kembali ke menu utama dan
 
 </div>
 
-## 
+## Tampilan Alur Program
+
+**1. Menu Utama**\
+
+Gambar ini menunjukkan tampilan awal aplikasi Toko Al-Hafizh. Pada menu utama, pengguna dapat memilih untuk mengelola makanan, minuman, handphone, aksesoris handphone, menampilkan seluruh produk, melakukan simulasi pembelian, atau keluar dari program.
+
+**2. Sub Menu Kategori Produk**\
+
+Submenu setelah pengguna memilih salah satu kategori produk. Pada submenu tersedia pilihan untuk menambah produk, melihat data produk, memperbarui data produk, menghapus data produk, atau kembali ke menu utama.
+
+**3. Tambah produk**\
+
+Proses penambahan data produk baru, pengguna memasukkan data produk sesuai kategori yang dipilih, seperti kode produk, nama produk, harga, stok, dan atribut khusus lainnya. Setelah data valid, sistem menyimpan produk ke dalam daftar produk.
+
+**4. Lihat Data Produk**\
+
+Menunjukkan daftar produk yang tersimpan pada sistem. Data produk ditampilkan dalam bentuk tabel agar informasi seperti kode produk, nama, harga, stok, dan atribut khusus produk dapat dilihat dengan rapi.
+
+**5. Update Produk**\
+
+Proses pembaruan data produk, sistem menampilkan daftar produk terlebih dahulu, kemudian pengguna memilih nomor produk yang ingin diperbarui. Pengguna dapat memasukkan nilai baru atau menekan Enter untuk mempertahankan nilai lama.
+
+**6. Hapus Produk**\
+
+Proses penghapusan data produk, sistem menampilkan daftar produk dan detail produk yang dipilih, kemudian meminta konfirmasi ya atau tidak. Jika pengguna memilih ya, data produk dihapus. Jika pengguna memilih tidak, penghapusan dibatalkan.
+
+**7. Tampilan Seluruh Produk**\
+
+Fitur untuk menampilkan seluruh produk Toko Al-Hafizh. Sistem menampilkan produk makanan, minuman, handphone, dan aksesoris handphone secara berurutan dalam satu tampilan.
+ 
+**8. Simulasi Pembelian**\
+
+Proses pemilihan produk pada simulasi pembelian, pengguna memilih kategori produk, menentukan produk yang ingin dibeli, memasukkan jumlah pembelian, dan memilih status member atau bukan member.
+
+**9. Struk Pembelian**\
+
+Gambar di atas menunjukkan hasil transaksi pembelian. Struk menampilkan jenis produk, nama produk, jumlah pembelian, harga satuan, subtotal, status member, jumlah diskon, dan total pembayaran. Setelah transaksi berhasil, stok produk berkurang sesuai jumlah pembelian.
+
+**10. Riwayat Transaksi**\
+
+Gambar ini menunjukkan daftar riwayat transaksi yang dilakukan selama program berjalan. Riwayat transaksi berisi nama produk, kode produk, jumlah pembelian, dan total pembayaran dari setiap transaksi.
+
+**11. Validasi Input**\
+* Validasi pilihan menu
+
+Sistem memastikan pengguna memasukkan angka sesuai batas menu yang tersedia. Jika pengguna memasukkan huruf atau nomor yang tidak tersedia, sistem menampilkan pesan kesalahan dan meminta input ulang.
+
+* Validasi input data produk
+
+Sistem memastikan bahwa data wajib tidak kosong, harga harus lebih dari nol, dan stok tidak boleh bernilai negatif. Jika data tidak sesuai, pengguna diminta memasukkan ulang data yang benar.
+
+* Validasi kode produk dan tanggal kadaluarsa
+
+Gambar ini menunjukkan validasi kode produk dan tanggal kadaluarsa. Sistem memastikan setiap produk memiliki kode yang unik. Sistem juga memastikan tanggal kadaluarsa menggunakan format YYYY-MM-DD serta merupakan tanggal yang valid.
+
+* Validasi konfirmasi hapus
+
+Sistem hanya menerima jawaban ya atau tidak. Jawaban ya digunakan untuk melanjutkan penghapusan, sedangkan jawaban tidak digunakan untuk membatalkan proses hapus.
+
+* Validasi jumlah pembelian dan stok
+
+Gambar ini menunjukkan validasi stok saat transaksi pembelian. Sistem membandingkan jumlah produk yang ingin dibeli dengan stok yang tersedia. Jika jumlah pembelian lebih besar daripada stok, transaksi dibatalkan dan stok tidak akan berkurang.
