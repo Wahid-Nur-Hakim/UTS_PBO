@@ -5,18 +5,21 @@
 ## Deskripsi Program
 
 <div align="justify">
-Toko Al-Hafizh adalah aplikasi sistem penjualan produk berbasis Java console yang menyediakan empat kategori produk, yaitu makanan, minuman, handphone, dan aksesoris handphone. Setiap kategori memiliki atribut khusus, seperti tanggal kadaluarsa dan status halal untuk produk konsumsi, serta merek dan masa garansi untuk produk elektronik.\
+
+Toko Al-Hafizh adalah aplikasi sistem penjualan produk berbasis Java console yang menyediakan empat kategori produk, yaitu makanan, minuman, handphone, dan aksesoris handphone. Setiap kategori memiliki atribut khusus, seperti tanggal kadaluarsa dan status halal untuk produk konsumsi, serta merek dan masa garansi untuk produk elektronik.
   
 Program memiliki fitur CRUD lengkap untuk setiap kategori produk. Pengguna dapat menambahkan produk baru, melihat daftar produk, memperbarui data produk, dan menghapus produk. Sebelum update atau hapus, sistem menampilkan data produk terlebih dahulu. Pada proses hapus, sistem meminta konfirmasi ya atau tidak untuk mencegah penghapusan tidak sengaja.
 
 Aplikasi juga menyediakan fitur simulasi pembelian. Pengguna dapat memilih produk, memasukkan jumlah pembelian, dan menentukan status member. Sistem akan memeriksa ketersediaan stok, menghitung total pembayaran dengan diskon sesuai jenis produk dan status member, mengurangi stok secara otomatis, serta menampilkan struk pembelian. Riwayat transaksi selama aplikasi berjalan juga disimpan dan dapat ditampilkan.
 
-Program menerapkan konsep Object-Oriented Programming atau OOP, meliputi inheritance, polymorphism, encapsulation, constructor, dan method overloading. Struktur program menggunakan pola arsitektur Model–View–Controller atau MVC dengan package model, view, controller, dan entry point TokoAlHafizh.java.
+Program menerapkan konsep Object-Oriented Programming atau OOP, meliputi inheritance, polymorphism, encapsulation, constructor, dan method overloading. Struktur program menggunakan pola arsitektur Model–View–Controller atau MVC dengan package model, view, controller, dan entry point TokoAlHafizh.
+
 </div>
 
 ## Fungsi dan Kegunaan Program
 
 <div align="justify">
+
 Program Toko Al-Hafizh berfungsi untuk mengelola data produk dan melakukan simulasi proses penjualan pada sebuah toko secara sederhana. Program membantu pengguna menyimpan serta mengatur produk berdasarkan empat kategori, yaitu makanan, minuman, handphone, dan aksesoris handphone.\
 
 Kegunaan utama program adalah:
@@ -33,16 +36,23 @@ Kegunaan utama program adalah:
 * Menyimpan dan menampilkan riwayat transaksi selama aplikasi berjalan.
 
 Program ini juga berguna sebagai penerapan konsep pemrograman berorientasi objek, seperti inheritance, polymorphism, encapsulation, method overriding, method overloading, percabangan, perulangan, ArrayList, validasi input, serta pola arsitektur MVC.
+
 </div>
 
 ## Alur Program
 
 <div align="justify">
-Program Toko Al-Hafizh dimulai dengan menampilkan menu utama kepada pengguna. Pengguna kemudian memilih fitur yang ingin digunakan, seperti mengelola data produk, melihat seluruh produk, atau melakukan simulasi pembelian.\
+  
+Program dimulai dengan menampilkan menu utama kepada pengguna. Pengguna dapat memilih fitur untuk mengelola makanan, minuman, handphone, aksesoris handphone, melihat seluruh produk, atau melakukan simulasi pembelian.
 
-Jika pengguna memilih pengelolaan produk, sistem akan menampilkan menu CRUD yang terdiri dari tambah, lihat, update, dan hapus data. Pada proses tambah, pengguna memasukkan data produk sesuai kategori yang dipilih. Pada proses lihat, sistem menampilkan daftar produk yang tersimpan. Pada proses update, sistem menampilkan data produk terlebih dahulu sebelum pengguna melakukan perubahan. Pada proses hapus, sistem menampilkan data yang akan dihapus dan meminta konfirmasi ya atau tidak.
+Jika pengguna memilih salah satu kategori produk, sistem menampilkan menu CRUD yang terdiri dari tambah, lihat, update, hapus, dan kembali. Pada proses tambah, pengguna memasukkan data produk sesuai kategori. Sistem melakukan validasi, seperti memastikan kode produk belum digunakan, harga lebih dari nol, stok tidak negatif, dan format tanggal kadaluarsa benar.
 
-Jika pengguna memilih simulasi pembelian, pengguna memilih kategori dan produk yang ingin dibeli, lalu memasukkan jumlah pembelian serta status member. Sistem akan memeriksa stok, menghitung total pembayaran beserta diskon, mengurangi stok produk, dan menampilkan struk transaksi.
+Pada proses lihat, sistem menampilkan data produk dalam bentuk tabel. Pada proses update, sistem menampilkan daftar dan detail produk terlebih dahulu sebelum pengguna mengubah data. Pengguna juga dapat menekan Enter untuk mempertahankan data lama. Pada proses hapus, sistem menampilkan produk yang akan dihapus dan meminta konfirmasi ya atau tidak.
 
-Setelah setiap proses selesai, pengguna dapat kembali ke menu utama untuk memilih fitur lain. Program menggunakan perulangan sehingga tetap berjalan sampai pengguna memilih menu keluar.
+Pada simulasi pembelian, pengguna memilih kategori produk, memilih produk, memasukkan jumlah pembelian, dan menentukan status member. Sistem memeriksa stok, menghitung harga, menerapkan diskon sesuai jenis produk dan status member, mengurangi stok setelah transaksi berhasil, serta menampilkan struk dan riwayat transaksi.
+
+Program menggunakan perulangan sehingga pengguna dapat kembali ke menu utama dan memakai fitur lain sampai memilih menu keluar.
+
 </div>
+
+## 
