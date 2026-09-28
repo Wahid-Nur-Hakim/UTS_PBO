@@ -59,61 +59,91 @@ Program menggunakan perulangan sehingga pengguna dapat kembali ke menu utama dan
 
 **1. Menu Utama**\
 
+<div align="justify">
 Gambar ini menunjukkan tampilan awal aplikasi Toko Al-Hafizh. Pada menu utama, pengguna dapat memilih untuk mengelola makanan, minuman, handphone, aksesoris handphone, menampilkan seluruh produk, melakukan simulasi pembelian, atau keluar dari program.
+</div>
 
 **2. Sub Menu Kategori Produk**\
 
+<div align="justify">
 Submenu setelah pengguna memilih salah satu kategori produk. Pada submenu tersedia pilihan untuk menambah produk, melihat data produk, memperbarui data produk, menghapus data produk, atau kembali ke menu utama.
+</div>
 
 **3. Tambah produk**\
 
+<div align="justify">
 Proses penambahan data produk baru, pengguna memasukkan data produk sesuai kategori yang dipilih, seperti kode produk, nama produk, harga, stok, dan atribut khusus lainnya. Setelah data valid, sistem menyimpan produk ke dalam daftar produk.
+</div>
 
 **4. Lihat Data Produk**\
 
+<div align="justify">
 Menunjukkan daftar produk yang tersimpan pada sistem. Data produk ditampilkan dalam bentuk tabel agar informasi seperti kode produk, nama, harga, stok, dan atribut khusus produk dapat dilihat dengan rapi.
+</div>
 
 **5. Update Produk**\
 
+<div align="justify">
 Proses pembaruan data produk, sistem menampilkan daftar produk terlebih dahulu, kemudian pengguna memilih nomor produk yang ingin diperbarui. Pengguna dapat memasukkan nilai baru atau menekan Enter untuk mempertahankan nilai lama.
+</div>
 
 **6. Hapus Produk**\
 
+<div align="justify">
 Proses penghapusan data produk, sistem menampilkan daftar produk dan detail produk yang dipilih, kemudian meminta konfirmasi ya atau tidak. Jika pengguna memilih ya, data produk dihapus. Jika pengguna memilih tidak, penghapusan dibatalkan.
+</div>
 
 **7. Tampilan Seluruh Produk**\
 
+<div align="justify">
 Fitur untuk menampilkan seluruh produk Toko Al-Hafizh. Sistem menampilkan produk makanan, minuman, handphone, dan aksesoris handphone secara berurutan dalam satu tampilan.
+</div>
  
 **8. Simulasi Pembelian**\
 
+<div align="justify">
 Proses pemilihan produk pada simulasi pembelian, pengguna memilih kategori produk, menentukan produk yang ingin dibeli, memasukkan jumlah pembelian, dan memilih status member atau bukan member.
+</div>
 
 **9. Struk Pembelian**\
 
+<div align="justify">
 Gambar di atas menunjukkan hasil transaksi pembelian. Struk menampilkan jenis produk, nama produk, jumlah pembelian, harga satuan, subtotal, status member, jumlah diskon, dan total pembayaran. Setelah transaksi berhasil, stok produk berkurang sesuai jumlah pembelian.
+</div>
 
 **10. Riwayat Transaksi**\
 
+<div align="justify">
 Gambar ini menunjukkan daftar riwayat transaksi yang dilakukan selama program berjalan. Riwayat transaksi berisi nama produk, kode produk, jumlah pembelian, dan total pembayaran dari setiap transaksi.
+</div>
 
 **11. Validasi Input**\
 * Validasi pilihan menu
 
+<div align="justify">
 Sistem memastikan pengguna memasukkan angka sesuai batas menu yang tersedia. Jika pengguna memasukkan huruf atau nomor yang tidak tersedia, sistem menampilkan pesan kesalahan dan meminta input ulang.
+</div>
 
 * Validasi input data produk
 
+<div align="justify">
 Sistem memastikan bahwa data wajib tidak kosong, harga harus lebih dari nol, dan stok tidak boleh bernilai negatif. Jika data tidak sesuai, pengguna diminta memasukkan ulang data yang benar.
+</div>
 
 * Validasi kode produk dan tanggal kadaluarsa
 
+<div align="justify">
 Gambar ini menunjukkan validasi kode produk dan tanggal kadaluarsa. Sistem memastikan setiap produk memiliki kode yang unik. Sistem juga memastikan tanggal kadaluarsa menggunakan format YYYY-MM-DD serta merupakan tanggal yang valid.
+</div>
 
 * Validasi konfirmasi hapus
 
+<div align="justify">
 Sistem hanya menerima jawaban ya atau tidak. Jawaban ya digunakan untuk melanjutkan penghapusan, sedangkan jawaban tidak digunakan untuk membatalkan proses hapus.
+</div>
 
 * Validasi jumlah pembelian dan stok
 
+<div align="justify">
 Gambar ini menunjukkan validasi stok saat transaksi pembelian. Sistem membandingkan jumlah produk yang ingin dibeli dengan stok yang tersedia. Jika jumlah pembelian lebih besar daripada stok, transaksi dibatalkan dan stok tidak akan berkurang.
+</div>
