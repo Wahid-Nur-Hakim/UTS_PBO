@@ -34,3 +34,15 @@ Kegunaan utama program adalah:
 
 Program ini juga berguna sebagai penerapan konsep pemrograman berorientasi objek, seperti inheritance, polymorphism, encapsulation, method overriding, method overloading, percabangan, perulangan, ArrayList, validasi input, serta pola arsitektur MVC.
 </div>
+
+## Alur Program
+
+<div align="justify">
+Secara umum, program Toko Al-Hafizh dimulai dengan menampilkan menu utama kepada pengguna. Pengguna kemudian memilih fitur yang ingin digunakan, seperti mengelola data produk, melihat seluruh produk, atau melakukan simulasi pembelian.
+
+Jika pengguna memilih pengelolaan produk, sistem akan menampilkan menu CRUD yang terdiri dari tambah, lihat, update, dan hapus data. Pada proses tambah, pengguna memasukkan data produk sesuai kategori yang dipilih. Pada proses lihat, sistem menampilkan daftar produk yang tersimpan. Pada proses update, sistem menampilkan data produk terlebih dahulu sebelum pengguna melakukan perubahan. Pada proses hapus, sistem menampilkan data yang akan dihapus dan meminta konfirmasi ya atau tidak.
+
+Jika pengguna memilih simulasi pembelian, pengguna memilih kategori dan produk yang ingin dibeli, lalu memasukkan jumlah pembelian serta status member. Sistem akan memeriksa stok, menghitung total pembayaran beserta diskon, mengurangi stok produk, dan menampilkan struk transaksi.
+
+Setelah setiap proses selesai, pengguna dapat kembali ke menu utama untuk memilih fitur lain. Program menggunakan perulangan sehingga tetap berjalan sampai pengguna memilih menu keluar.
+</div>
