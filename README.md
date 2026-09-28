@@ -58,6 +58,7 @@ Program menggunakan perulangan sehingga pengguna dapat kembali ke menu utama dan
 ## Tampilan Alur Program
 
 **1. Menu Utama**\
+<img width="334" height="270" alt="image" src="https://github.com/user-attachments/assets/a4be0a3c-540b-4364-bf80-01386d598729" />
 
 <div align="justify">
   
@@ -66,6 +67,7 @@ Gambar ini menunjukkan tampilan awal aplikasi Toko Al-Hafizh. Pada menu utama, p
 </div>
 
 **2. Sub Menu Kategori Produk**\
+<img width="259" height="205" alt="image" src="https://github.com/user-attachments/assets/9a9b940b-dc72-40d3-a11a-9a161664eaf5" />
 
 <div align="justify">
   
@@ -74,6 +76,7 @@ Submenu setelah pengguna memilih salah satu kategori produk. Pada submenu tersed
 </div>
 
 **3. Tambah produk**\
+<img width="393" height="206" alt="image" src="https://github.com/user-attachments/assets/43fc6bfe-2cfe-4d1a-9bc2-8038797b3543" />
 
 <div align="justify">
   
@@ -82,6 +85,7 @@ Proses penambahan data produk baru, pengguna memasukkan data produk sesuai kateg
 </div>
 
 **4. Lihat Data Produk**\
+<img width="1119" height="221" alt="image" src="https://github.com/user-attachments/assets/70fa0e58-e8db-4955-ab61-6759152e54bb" />
 
 <div align="justify">
   
@@ -90,6 +94,7 @@ Menunjukkan daftar produk yang tersimpan pada sistem. Data produk ditampilkan da
 </div>
 
 **5. Update Produk**\
+<img width="1028" height="355" alt="image" src="https://github.com/user-attachments/assets/44bb2a90-1886-43aa-93b3-3c45204f33e9" />
 
 <div align="justify">
   
@@ -98,14 +103,16 @@ Proses pembaruan data produk, sistem menampilkan daftar produk terlebih dahulu, 
 </div>
 
 **6. Hapus Produk**\
+<img width="1050" height="250" alt="image" src="https://github.com/user-attachments/assets/bb995c59-904d-47bb-a834-c7f9f7ba5c2d" />
 
 <div align="justify">
-  
+
 Proses penghapusan data produk, sistem menampilkan daftar produk dan detail produk yang dipilih, kemudian meminta konfirmasi ya atau tidak. Jika pengguna memilih ya, data produk dihapus. Jika pengguna memilih tidak, penghapusan dibatalkan.
 
 </div>
 
 **7. Tampilan Seluruh Produk**\
+<img width="1029" height="669" alt="image" src="https://github.com/user-attachments/assets/2eb6d102-1a6b-4b59-acf9-4cec08fbfc60" />
 
 <div align="justify">
   
@@ -114,6 +121,8 @@ Fitur untuk menampilkan seluruh produk Toko Al-Hafizh. Sistem menampilkan produk
 </div>
  
 **8. Simulasi Pembelian**\
+<img width="282" height="104" alt="image" src="https://github.com/user-attachments/assets/d2ebc375-47cc-4422-8b06-1d8d63d179bc" />
+<img width="1032" height="240" alt="image" src="https://github.com/user-attachments/assets/3559ee83-e026-47ac-bfbc-5f2ef12ba7de" />
 
 <div align="justify">
   
@@ -122,6 +131,7 @@ Proses pemilihan produk pada simulasi pembelian, pengguna memilih kategori produ
 </div>
 
 **9. Struk Pembelian**\
+<img width="211" height="147" alt="image" src="https://github.com/user-attachments/assets/7d7b7dec-38ce-4ea9-831c-9c396ae8388b" />
 
 <div align="justify">
   
@@ -130,6 +140,7 @@ Gambar di atas menunjukkan hasil transaksi pembelian. Struk menampilkan jenis pr
 </div>
 
 **10. Riwayat Transaksi**\
+<img width="301" height="48" alt="image" src="https://github.com/user-attachments/assets/4e1324d8-9d86-4038-9242-48f586eea402" />
 
 <div align="justify">
   
@@ -137,8 +148,9 @@ Gambar ini menunjukkan daftar riwayat transaksi yang dilakukan selama program be
 
 </div>
 
-**11. Validasi Input**\
+**11. Validasi Input**
 * Validasi pilihan menu
+<img width="345" height="159" alt="image" src="https://github.com/user-attachments/assets/7c380ff8-a00c-47f3-9d40-f533fe2ccc7e" />
 
 <div align="justify">
   
@@ -147,6 +159,8 @@ Sistem memastikan pengguna memasukkan angka sesuai batas menu yang tersedia. Jik
 </div>
 
 * Validasi input data produk
+<img width="307" height="41" alt="image" src="https://github.com/user-attachments/assets/a81828e0-546f-465f-9d74-670a9c9e4302" />
+<img width="309" height="34" alt="image" src="https://github.com/user-attachments/assets/bacc0b06-d922-4317-8d22-cc8ca2dc2870" />
 
 <div align="justify">
   
@@ -155,6 +169,8 @@ Sistem memastikan bahwa data wajib tidak kosong, harga harus lebih dari nol, dan
 </div>
 
 * Validasi kode produk dan tanggal kadaluarsa
+<img width="381" height="29" alt="image" src="https://github.com/user-attachments/assets/8d9a51e5-cf47-492d-a05e-fe68bf9b4c8a" />
+<img width="548" height="30" alt="image" src="https://github.com/user-attachments/assets/0dc1dc28-9697-4dc1-b7cc-7ef3c7bb12b0" />
 
 <div align="justify">
   
@@ -163,14 +179,16 @@ Gambar ini menunjukkan validasi kode produk dan tanggal kadaluarsa. Sistem memas
 </div>
 
 * Validasi konfirmasi hapus
+<img width="1050" height="250" alt="image" src="https://github.com/user-attachments/assets/7b813c5c-b5ad-4e78-aac4-cf3b563f5e59" />
 
 <div align="justify">
-  
+
 Sistem hanya menerima jawaban ya atau tidak. Jawaban ya digunakan untuk melanjutkan penghapusan, sedangkan jawaban tidak digunakan untuk membatalkan proses hapus.
 
 </div>
 
 * Validasi jumlah pembelian dan stok
+<img width="978" height="53" alt="image" src="https://github.com/user-attachments/assets/788cd4d3-27a2-4df6-8012-b99d6ce49386" />
 
 <div align="justify">
   
